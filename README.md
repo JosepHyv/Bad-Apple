@@ -32,10 +32,6 @@ python -m start
 # Enjoy Bad Apple
 
 
-<html>
-<body>
-<div>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zVMTKKTgkzQ?si=znUYU_qrlRcHU-5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-</body>
-</html>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=zVMTKKTgkzQ" target="_blank">
+  <img src="https://img.youtube.com/vi/zVMTKKTgkzQ/0.jpg" alt="Watch the video" width="860" height="480" />
+</a>
