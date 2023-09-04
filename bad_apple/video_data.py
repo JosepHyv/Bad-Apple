@@ -8,7 +8,7 @@ from pytube import YouTube
 BAD_APPLE = 'https://youtu.be/FtutLA63Cp8?si=DipiIyUFHv7mnHo4'
 DATA_FOLDER = 'data'
 INPUTS_NAME = 'bad_apple'
-FOLDER_PATH = os.path.join(os.getcwd(), DATA_FOLDER)
+FOLDER_PATH = os.path.abspath(os.path.join(os.getcwd(), DATA_FOLDER))
 FINAL_VIDEO_PATH = os.path.join(FOLDER_PATH, "{}.mp4".format(INPUTS_NAME) )
 FINAL_AUDIO_PATH = os.path.join(FOLDER_PATH, "{}_audio.wav".format(INPUTS_NAME))
 TEMPORAL_AUDIO_PATH = FINAL_AUDIO_PATH.replace('.wav', '.mp4')
