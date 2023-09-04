@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bad_apple"
+version = "0.1.0"
+description = "Bad Apple video to ascii format"
+authors = ["josephyv <josephynimoto@gmail.com>"]
+license = "GPL"
+readme = "README.md"
+packages = [{include = "bad_apple"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.0.76"
+PyAudio = "^0.2.13"
+pydub = "^0.25.1"
+pytube = "^15.0.0"
+pillow = "^10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
