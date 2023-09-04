@@ -66,6 +66,7 @@ def start_bad_apple():
     stream = p.open(format = p.get_format_from_width(wf.getsampwidth()),
                     channels = wf.getnchannels(),
                     rate = wf.getframerate(),
+                    frames_per_buffer=4096,
                     output = True)
    
     succes = True
