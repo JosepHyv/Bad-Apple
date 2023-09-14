@@ -3,7 +3,7 @@ This is a simple implementation of classic bad apple video, transformed to ascii
 
 # How to Run 
 
-First, you need to install ffmpeg, in your SO.
+First, you need to install [ffmpeg](https://ffmpeg.org/), in your SO.
 then, you must verify that you have python installed, any version of python since 3.10 works!!, you will also need to install [pip](https://pip.pypa.io/en/stable/installation/)
 I highly recommend running this using [poetry](https://python-poetry.org/) you must [install poetry first ](https://python-poetry.org/docs/#installation) 
 Then, you need to install dependencies.
